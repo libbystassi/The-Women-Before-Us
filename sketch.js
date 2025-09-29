@@ -97,6 +97,10 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage('submit-a-story-page');
   });
 
+  document.getElementById('HNOC').addEventListener('click', () => {
+    showPage('HNOC-page');
+  });
+
   document.querySelectorAll('.page-link').forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
